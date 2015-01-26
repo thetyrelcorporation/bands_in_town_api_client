@@ -1,6 +1,6 @@
 # BandsInTownApiClient
 
-TODO: Write a gem description
+This gem provides a light weight wrapper for the Bands In Town event API. Currently it allows you to get all events for a particular band with ease. Later it will allow for all other Bands In Town requests such as band info and event searching. It has easy support for xml and json.
 
 ## Installation
 
