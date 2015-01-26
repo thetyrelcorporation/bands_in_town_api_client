@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Currently this gem will only get events for a particular artist
+
+```ruby
+require 'bands_in_town_api_client'
+events = BandsInTownApiClient::Client.new("Skrillex", "Your Client ID").events
+```ruby
+
+## TODO
+
+1. Add implantation for other API requests such as band info and event search
 
 ## Contributing
 
