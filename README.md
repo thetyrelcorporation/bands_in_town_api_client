@@ -1,6 +1,6 @@
 # BandsInTownApiClient
 
-This gem provides a light weight wrapper for the Bands In Town event API. Currently it allows you to get all events for a particular band with ease. Later it will allow for all other Bands In Town requests such as band info and event searching. It has easy support for xml and json.
+This gem provides a light weight wrapper for the Bands In Town event API. Currently it allows you to get all events for a particular band with ease. Later it will allow for all other Bands In Town requests such as band info and event searching.
 
 ## Installation
 
@@ -27,13 +27,6 @@ require 'bands_in_town_api_client'
 events = BandsInTownApiClient::Client.new("Skrillex", "YOUR_CLIENT_ID").events
 ```
 YOUR_CLIENT_ID can be any unique identifier of your choosing. No registration is required.
-
-The default format is JSON if you would like xml simply
-
-```ruby
-require 'bands_in_town_api_client'
-events = BandsInTownApiClient::Client.new("Skrillex", "YOUR_CLIENT_ID").events(:xml)
-```
 
 Please enjoy!
 

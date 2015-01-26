@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tyrel@thetyrelcorporation.com"]
 	spec.homepage   	 = "https://github.com/thetyrelcorporation/bands_in_town_api_client"
   spec.summary       = %q{Interfaces with the Bands In Town API.}
-	spec.description	 = %q{Provides a light weight wrapper to easily request json or xml data from Bands In Town.}
+	spec.description	 = %q{Provides a light weight wrapper to easily request the Bands In Town API and recieve an easy to use hash}
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -10,8 +10,8 @@ module BandsInTownApiClient
 			@client_id = client_id
 		end
 
-		def events(format=:json)
-			request = Request.new( :events, @artist_id, @client_id, format)
+		def events
+			request = Request.new( :events, @artist_id, @client_id, :json)
 			request.response
 		end
 	end
