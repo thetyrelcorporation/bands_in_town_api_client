@@ -24,8 +24,9 @@ Currently this gem will only get events for a particular artist
 
 ```ruby
 require 'bands_in_town_api_client'
-events = BandsInTownApiClient::Client.new("Skrillex", "Your Client ID").events
+events = BandsInTownApiClient::Client.new("Skrillex", "YOUR_CLIENT_ID").events
 ```
+YOUR_CLIENT_ID can be any unique identifier of your choosing. No registration is required.
 
 ## TODO
 
