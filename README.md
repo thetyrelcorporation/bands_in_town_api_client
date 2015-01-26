@@ -28,6 +28,15 @@ events = BandsInTownApiClient::Client.new("Skrillex", "YOUR_CLIENT_ID").events
 ```
 YOUR_CLIENT_ID can be any unique identifier of your choosing. No registration is required.
 
+The default format is JSON if you would like xml simply
+
+```ruby
+require 'bands_in_town_api_client'
+events = BandsInTownApiClient::Client.new("Skrillex", "YOUR_CLIENT_ID").events(:xml)
+```
+
+Please enjoy!
+
 ## TODO
 
 1. Add implantation for other API requests such as band info and event search
